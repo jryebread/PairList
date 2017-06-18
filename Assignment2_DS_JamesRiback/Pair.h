@@ -1,6 +1,6 @@
 #pragma once
-template<class F, class S>
-class Pair
+template< class F, class S>
+class Pair : public LinkedList<Pair<F,S>>
 {
 private:
 	F key;

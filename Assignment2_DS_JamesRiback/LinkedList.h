@@ -13,7 +13,7 @@ struct Node {
 		:data(data), next(nullptr), prev(nullptr) {};
 };
 
-/* class ==========================*/
+/* ====== Class LINKED LIST  ========*/
 template <class T>
 class LinkedList{
 private:
